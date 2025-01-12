@@ -401,7 +401,7 @@ p {
 
 .third {
   padding: 120px 0px;
-
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -413,6 +413,7 @@ p {
   margin-bottom: 8px;
   margin-bottom: 72px;
   text-align: center;
+  position: relative;
 }
 .third .container .third-title {
   font-size: 36px;
@@ -442,6 +443,7 @@ p {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   cursor: pointer;
   position: relative;
+  overflow: hidden;
 }
 .third .container .third-one .third-photo:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -543,10 +545,10 @@ a {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
+  margin-bottom: 16px;
 }
 .footer .container .footer-container-logo {
   margin-right: 120px;
-  margin-bottom: 16px;
 }
 .footer .container .footer-container-media .social-media {
   font-weight: 500;
@@ -594,6 +596,7 @@ a {
   .social-media-icon
   .social-media-icon-one
   .social-media-icon-one-link:hover {
+  background-color: #31d0aa;
 }
 .footer
   .container
