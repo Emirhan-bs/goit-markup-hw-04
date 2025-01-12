@@ -464,7 +464,6 @@ p {
 .third .container .third-one .third-photo .third-one-container img {
   display: block;
   width: 100%;
-  width: 100%;
   height: 100%;
 }
 .third .container .third-one .third-photo .third-photo-paragraf-two {
@@ -522,7 +521,8 @@ p {
 }
 .footer .container,
 a {
-  display: inline-block;
+  display: flex;
+  align-items: baseline;
 }
 .footer .container .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -544,5 +544,63 @@ a {
   letter-spacing: 0.02em;
   max-width: 264px;
 }
-
+.footer .container .footer-container-logo {
+  margin-right: 120px;
+}
+.footer .container .footer-container-media .social-media {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.footer
+  .container
+  .footer-container-media
+  
+  .social-media-icon
+  .social-media-icon-one {
+  width: 40px;
+  height: 40px;
+}
+.footer
+  .container
+  .footer-container-media
+  
+  .social-media-icon
+  .social-media-icon-one
+  .social-media-icon-one-link
+  .social-media-icon-one-link-one {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer
+  .container
+  .footer-container-media
+  
+  .social-media-icon
+  .social-media-icon-one
+  .social-media-icon-one-link
+  .social-media-icon-one-link-one:hover {
+  background-color: #31d0aa;
+}
+.footer
+  .container
+  .footer-container-media
+  
+  .social-media-icon
+  .social-media-icon-one
+  .social-media-icon-one-link
+  .social-media-icon-one-link-one:focus {
+  background-color: #31d0aa;
+}
+.social-media-icon-one-link-one {
+  fill: #f4f4fd;
+}
 /* Footer BİTTİ */
