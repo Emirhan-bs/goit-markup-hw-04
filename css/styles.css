@@ -546,6 +546,7 @@ a {
 }
 .footer .container .footer-container-logo {
   margin-right: 120px;
+  margin-bottom: 16px;
 }
 .footer .container .footer-container-media .social-media {
   font-weight: 500;
@@ -593,7 +594,6 @@ a {
   .social-media-icon
   .social-media-icon-one
   .social-media-icon-one-link:hover {
-  background-color: #31d0aa;
 }
 .footer
   .container
