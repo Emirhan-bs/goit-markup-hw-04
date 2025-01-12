@@ -557,9 +557,7 @@ a {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
-}
-.footer p {
-  margin-bottom: 16px;
+  height: 100½;
 }
 .footer .container .footer-container-media {
   margin-bottom: 16px;
