@@ -486,16 +486,6 @@ p {
 .third .container .third-one .third-photo:hover .third-photo-paragraf-two {
   transform: translateY(0%);
 }
-.third
-  .container
-  .third-one
-  .third-photo
-  .third-one-container
-  .third-photo-paragraf-two
-  p {
-  height: 100%;
-  width: 100%;
-}
 .third .third-photo .third-photo-title {
   font-weight: 500;
   font-size: 20px;
