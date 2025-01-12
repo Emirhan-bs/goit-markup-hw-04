@@ -485,6 +485,8 @@ p {
 }
 .third .container .third-one .third-photo:hover .third-photo-paragraf-two {
   transform: translateY(0%);
+  height: 100%;
+  width: 100%;
 }
 .third .third-photo .third-photo-title {
   font-weight: 500;
@@ -545,7 +547,7 @@ a {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
-  margin-bottom: 16px;
+
   height: 100%;
 }
 .footer .container .footer-container-logo {
@@ -557,11 +559,10 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-bottom: 16px;
+
   height: 100½;
 }
 .footer .container .footer-container-media {
-  margin-bottom: 16px;
 }
 .footer
   .container
